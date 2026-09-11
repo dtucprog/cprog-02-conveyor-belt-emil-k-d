@@ -15,7 +15,7 @@ int main() {
 
     //Printing/outputting whether or not the conveyor belt system can handle the input
     if (MOTOR_CAPACITY * motorCount >= totalPackageWeight) {
-        printf("YES! The conveyor belt can carry the packages.");
+        printf("Yes! The conveyor belt can carry the packages.");
     }
     else {
         printf("No. The conveyor belt cannot carry the packages.");
